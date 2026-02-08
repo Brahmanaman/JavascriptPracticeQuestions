@@ -178,15 +178,111 @@
 // }
 
 // 32. Print Adult if age ≥18 else Minor.
+// let age = 18
+// if(age >= 18){
+//     console.log("Adult")
+// }
+// else{
+//     console.log("Minor")
+// }
 
 // 33. Check even or odd.
+// let num = 17
+// if(num % 2 === 0){
+//     console.log("even")
+// }
+// else if(num % 2 !== 0){
+//     console.log("odd")
+// }
+
 // 34. Find greater between two numbers.
+// let num1 = 10
+// let num2 = 20
+// if(num1 > num2){
+//     console.log("num1 is greater")
+// }
+// else if(num2 > num1){
+//     console.log("num2 is greater")
+// }
+// else{
+//     console.log("Both numbers are equal")
+// }
+
 // 35. Score grading:
 // ≥90 Excellent
 // ≥70 Good
-// Else Needs Improvement`
+// Else Needs Improvement
+// let score = 20;
+// if (score >= 90) {
+//     console.log("Excellent")
+// }
+// else if(score >= 70){
+//     console.log("Good");
+// }
+// else{
+//     console.log("Needs Improvement")
+// }
+
 // 36. Check leap year.
+// let currentYear = new Date().getFullYear();
+// if (currentYear % 400 === 0) {
+//     console.log("current year is a leap year")
+// }
+// else if (currentYear % 100 === 0) {
+//     console.log("current year is not a leap year")
+// }
+// else if (currentYear % 4 === 0) {
+//     console.log("current year is a leap year")
+// }
+// else {
+//     console.log("current year is not a leap year")
+// }
+
 // 37. Check vowel or consonant.
+// let char = "a";
+// char = char.toLowerCase();
+// if (char === "a" || char === "e" || char === "i" || char === "o" || char === "u") {
+//     console.log("vowel");
+// }
+// else if (char >= "a" && char <= "z") {
+//     console.log("consonant");
+// }
+// else {
+//     console.log("Not an alphabet");
+// }
+
 // 38. Find largest of three numbers.
+// let num1 = 10
+// let num2 = 50
+// let num3 = 30
+// if (num1 > num2 && num1 > num3) {
+//     console.log(num1 + " is the largest")
+// }
+// else if (num2 > num1 && num2 > num3) {
+//     console.log(num2 + " is the largest")
+// }
+// else if (num3 > num1 && num3 > num2) {
+//     console.log(num3 + " is the largest")
+// }
+// else {
+//     console.log("All numbers are equal")
+// }
+
 // 39. Password validation (admin123).
+// let password = "admin123";
+// let enteredPassword = "admin123";
+// if (enteredPassword === password) {
+//     console.log("Password is correct");
+// }
+// else {
+//     console.log("Password is incorrect");
+// }
+
 // 40. Check divisibility by 3 and 5.
+// let num = 15
+// if(num % 3 == 0 && num % 5 == 0){
+//     console.log("given number is divisible by 3 and 5")
+// }
+// else{
+//     console.log("given number is not divisible by 3 and 5")
+// }
