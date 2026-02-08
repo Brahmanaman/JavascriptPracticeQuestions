@@ -286,3 +286,87 @@
 // else{
 //     console.log("given number is not divisible by 3 and 5")
 // }
+
+// More Loop Basics
+// 41. Sum from 1 to 100.
+// let sum = 0;
+// for (let i = 1; i <= 100; i++) {
+//     sum += i;
+// }
+// console.log(sum)
+
+// 42. Print table of 5.
+// for(let i = 1; i <= 10; i++){
+//     console.log(`5 * ${i} = ${5 * i}`)
+// }
+
+// 43. Count even numbers between 1–50.
+// let count = 0;
+// for (let i = 1; i <= 50; i++) {
+//     if (i % 2 == 0) {
+//         count++;
+//     }
+// }
+// console.log(count)
+
+// 44. Print 10 to 1.
+// for(let  i = 10; i >= 1; i--){
+//     console.log(i);
+// }
+
+// 45. Sum of even numbers from 1–20.
+// let sum = 0
+// for (let i = 1; i <= 20; i++) {
+//     if (i % 2 == 0) {
+//         sum += i
+//     }
+// }
+// console.log(sum)
+
+// 46. Print squares from 1–10.
+// for (let i = 1; i <= 10; i++) {
+//     console.log(`square of ${i} = ${i * i}`)
+// }
+
+
+// 47. Count characters in "JavaScript".
+// let count = 0;
+// for (const element of "JavaScript") {
+//     count++;
+// }
+// console.log(count)
+
+// 48. Find largest in [3,7,2,9,5].
+// let largest = [3, 7, 2, 9, 5]
+// let num = 0;
+// for (const element of largest) {
+//     if (element > num) {
+//         num = element
+//     }
+// }
+// console.log(num)
+
+// 49. Print pattern:
+// *
+// **
+// ***
+// ****
+// *****
+
+// for (let i = 1; i <= 5; i++) {
+//     let pattern = "";
+//     for (let j = 1; j <= i; j++) {
+//         pattern += "*";
+//     }
+//     console.log(pattern);
+// }
+
+// 50. Find sum of array:
+// [10, 20, 30, 40]
+// let arr = [10, 20, 30, 40];
+// let sum = 0;
+// for (const element of arr) {
+//     sum = sum + element
+// }
+
+// console.log(sum)
