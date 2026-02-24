@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        html,
+        body {
+            height: 100%;
+            width: 100%;
+        }
+
+        body {
+            padding: 10px;
+        }
+
+        input {
+            padding: 5px 10px;
+            margin-bottom: 10px;
+            font-size: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <input type="text" placeholder="search fruits">
+    <ul></ul>
+    <script>
+        let fruits = ["apple", "banana", "orange", "mango", "pineapple", "grapes", "guava"]
+
+        let originalArray = [...fruits];
+
+        function renderFruits(fruits) {
+            let ul = document.querySelector("ul")
+
+            ul.innerHTML = "";
+
+            fruits.forEach((fruit) => {
+                let li = document.createElement("li")
+                li.textContent = fruit;
+                ul.appendChild(li)
+            })
+        }
+
+        renderFruits(fruits)
+
+        document.querySelector("input").addEventListener("input", function () {
+            let val = this.value.toLowerCase()
+            fruits = originalArray.filter((item) => item.toLowerCase().startsWith(val))
+            renderFruits(fruits)
+        })
+    </script>
+</body>
+
+</html>
