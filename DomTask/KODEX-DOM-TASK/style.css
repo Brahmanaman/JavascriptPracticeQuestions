@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    flex-direction: column;
+    margin-top: 10%;
+
+}
+
+button {
+    padding: 5px 10px;
+}
+
+.diceContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.leftdiv,
+.rightdiv {
+    height: 200px;
+    width: 200px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+img {
+    height: 100%;
+    width: 100%;
+}
+
+button {
+    padding: 5px 10px;
+}
