@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+    font-size: 62.5%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.progressContainer {
+    height: 20px;
+    width: 50%;
+    border-radius: 50px;
+    background-color: burlywood;
+    overflow: hidden;
+}
+
+.progress {
+    height: 100%;
+    width: 0%;
+    background-color: red;
+
+}
+
+button {
+    padding: 5px 10px;
+    border: none;
+    outline: none;
+    background-color: chocolate;
+    border-radius: 10px;
+    color: white;
+    cursor: pointer;
+}
+
+button:active {
+    scale: 0.9;
+}
